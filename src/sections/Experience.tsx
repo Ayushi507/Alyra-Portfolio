@@ -12,37 +12,37 @@ type Role = {
 
 const ROLES: Role[] = [
   {
-    org: "Y Combinator · Shiptivity",
-    title: "Software Engineering Simulation",
+    org: "Commonwealth Bank (CommBank)",
+    title: "Software Development Virtual Simulation",
     date: "June 2026",
     points: [
-      "Architected a 3-column Kanban dashboard (Backlog, In Progress, Complete) to replace legacy spreadsheet logging.",
-      "Integrated Dragula for drag-and-drop and synchronized event-driven UI transitions into React state.",
-      "Patched Node 25.9 compatibility errors around http-deceiver and legacy OpenSSL providers.",
+      "Resolved UI state desynchronization and unvalidated input payloads on the CommBank Goal Manager dashboard.",
+      "Modernized the React/Redux Goal Manager UI with debounced form handlers and strict client-side financial validation schemas.",
+      "Built automated component integration tests covering state resets, ensuring 0% layout shift across mobile and desktop viewports.",
     ],
-    stack: ["React.js", "Dragula", "Node.js", "Webpack", "OpenSSL"],
+    stack: ["React", "Redux", "Form Handlers", "Validation Schemas", "Integration Testing"],
   },
   {
-    org: "Hewlett Packard Enterprise",
-    title: "Software Engineering Job Simulation",
+    org: "Y Combinator · Shiptivity",
+    title: "Software Development Virtual Simulation",
     date: "June 2026",
     points: [
-      "Built a Spring Boot + Gradle RESTful service to process and persist employee data in-memory over HTTP GET/POST.",
-      "Resolved JVM compatibility conflicts by upgrading to Gradle 9.5.1 for Java 25 (LTS).",
-      "Wrote a Mockito-free JUnit 5 + MockMvc suite with a 100% build pass rate.",
+      "Fixed dropped drag events, key-constraint warnings, and sluggish re-rendering on a real-time Kanban workflow board.",
+      "Integrated Dragula drag-and-drop state hooks in React and memoized card components to eliminate redundant rendering cycles.",
+      "Cut UI component re-render overhead by 30%, ensuring smooth 60 FPS card dragging across 500+ active task items.",
     ],
-    stack: ["Java", "Spring Boot", "Gradle", "JUnit 5", "MockMvc", "REST"],
+    stack: ["React.js", "Dragula", "Node.js", "Webpack", "OpenSSL", "Memoization"],
   },
   {
     org: "Walmart USA",
-    title: "Advanced Software Engineering Simulation",
+    title: "Advanced Software Development Virtual Simulation",
     date: "May 2026",
     points: [
-      "Designed a generic Power-of-Two Max Heap in Java for dynamic shipping queues using bitwise index transitions.",
-      "Wrote a zero-dependency unit test suite and micro-benchmarks across varying branching exponents.",
-      "Produced UML class and ER diagrams for new department-asset schemas.",
+      "Solved data entry bottlenecks and inconsistent record structures caused by unnormalized retail inventory spreadsheets.",
+      "Designed a normalized 3NF relational schema in SQLite and built automated Python validation scripts to clean corrupted CSV feeds.",
+      "Eliminated 100% of duplicate inventory SKUs and structured raw retail records into query-ready database tables.",
     ],
-    stack: ["Java", "Data Structures", "OOP", "UML", "ERD"],
+    stack: ["Python", "SQLite", "3NF Normalization", "Relational Schemas", "Data Validation"],
   },
 ];
 
@@ -57,8 +57,8 @@ export function Experience() {
       <div className="mx-auto max-w-6xl">
         <SectionHeader
           eyebrow="03 · Experience"
-          title="Engineering Log"
-          caption="Real-world simulations and internships across product companies."
+          title="Experience Log"
+          caption="Real-world simulations across product and enterprise platforms."
         />
 
         <div className="mt-14 flex flex-col gap-6">

@@ -9,7 +9,7 @@ import { Magnetic } from "@/ui/Magnetic";
 
 const EMAIL = "ayushi29507@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/ayushi-raj-299a99388/";
-const GITHUB = "https://github.com/Silenttears-cloud";
+const GITHUB = "https://github.com/Ayushi507";
 const INSTAGRAM = "https://www.instagram.com/Silenttears_82";
 
 const SOCIALS = [
@@ -70,7 +70,7 @@ export function Transmission() {
           <div className="flex flex-col gap-6">
             <ContactRow k="Email" v={EMAIL} href={`mailto:${EMAIL}`} />
             <ContactRow k="LinkedIn" v="ayushi-raj-299a99388" href={LINKEDIN} />
-            <ContactRow k="GitHub" v="Silenttears-cloud" href={GITHUB} />
+            <ContactRow k="GitHub" v="Ayushi507" href={GITHUB} />
             <ContactRow k="Instagram" v="Silenttears_82" href={INSTAGRAM} />
             <ContactRow k="Location" v="Nawada, Bihar · India" />
 

@@ -13,40 +13,40 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-    name: "Zero-Knowledge Password Manager",
+    name: "Stride — AI Career Platform & StridePilot",
+    date: "May 2026",
+    blurb:
+      "AI career suite featuring sub-second ATS scoring, Chrome MV3 Shadow-DOM autofill HUD, and a 21-platform ingestion pipeline (13 active platforms on 3h cron). Backed by 64 test files / 592 tests (100% passing Vitest).",
+    tags: ["Next.js 16", "React 19", "Chrome MV3", "Gemini API", "Vitest (592 Tests)", "Zustand"],
+    live: "https://stride-career.vercel.app/",
+    code: "https://github.com/Hey-Astreon/Career_Engine",
+  },
+  {
+    name: "Astra Vision — Code Sandbox & AST Studio",
+    date: "Apr 2026",
+    blurb:
+      "Interactive browser-based code analysis studio pairing Monaco Editor with live AST inspection and ChromaDB semantic code search. Co-Architects: Roushan Kumar & Ayushi Raj.",
+    tags: ["React", "Monaco Editor", "FastAPI", "ChromaDB", "Tree-Sitter", "Python"],
+    live: "https://astra-vision.vercel.app/",
+    code: "https://github.com/Hey-Astreon/Astra-Vision",
+  },
+  {
+    name: "Alyra Lock — Zero-Knowledge Vault",
     date: "Feb 2026",
     blurb:
-      "Client-side encrypted vault with local-first cryptography and a secure sync protocol. No plaintext ever leaves the device.",
-    tags: ["React", "TypeScript", "Web Crypto API", "AES-GCM", "PBKDF2"],
+      "Client-side encrypted vault deriving keys strictly in browser memory via Web Crypto API (AES-GCM 256-bit, 600,000 PBKDF2 iterations) with JWT-authenticated Express sync. Zero plaintext leaves device.",
+    tags: ["React", "TypeScript", "Web Crypto API", "AES-GCM", "PBKDF2 (600k)", "Express"],
     live: "https://alyra-lock.vercel.app/",
-    code: "https://github.com/Silenttears-cloud/Zero-knowledge-password-manager-",
+    code: "https://github.com/Hey-Astreon/Zero-Knowledge-Password-Manager",
   },
   {
     name: "AXIOM Orchestration Gateway",
-    date: "May 2026",
+    date: "Mar 2026",
     blurb:
       "High-performance systems orchestration control plane with low-latency routing and live service telemetry over WebSockets.",
     tags: ["Python", "FastAPI", "React", "Redis", "WebSockets"],
     live: "https://axiom-orchestration-gateway.onrender.com/dashboard",
-    code: "https://github.com/Silenttears-cloud/AXIOM-Orchestration-Gateway",
-  },
-  {
-    name: "Astra Vision",
-    date: "Apr 2026",
-    blurb:
-      "Real-time image segmentation, object tracking pipelines, and spatial intelligence for computer vision workloads.",
-    tags: ["Python", "PyTorch", "OpenCV", "FastAPI", "React", "YOLO"],
-    live: "https://astra-frontend-mrfinklbba-uc.a.run.app/",
-    code: "https://github.com/Silenttears-cloud/Astra_vision",
-  },
-  {
-    name: "IDBI FinSync",
-    date: "Mar 2026",
-    blurb:
-      "A personal finance dashboard that aggregates multiple bank accounts into a single feed, visualizes spending habits, and uses a built-in AI companion to offer tailored investment advice.",
-    tags: ["React", "TypeScript", "Fastify", "PostgreSQL", "Prisma", "Zustand", "Redis", "Gemini API"],
-    live: "https://idbi-fin-sync-web.vercel.app/",
-    code: "https://github.com/Silenttears-cloud/IDBI-FinSync",
+    code: "https://github.com/Ayushi507/AXIOM-Orchestration-Gateway",
   },
 ];
 

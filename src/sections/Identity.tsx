@@ -8,7 +8,7 @@ const ayushiPhoto = "/images/ayushi.webp";
 
 const SOCIALS = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/ayushi-raj-299a99388/", icon: Linkedin },
-  { label: "GitHub", href: "https://github.com/Silenttears-cloud", icon: Github },
+  { label: "GitHub", href: "https://github.com/Ayushi507", icon: Github },
   { label: "Instagram", href: "https://www.instagram.com/Silenttears_82", icon: Instagram },
   { label: "Email", href: "mailto:ayushi29507@gmail.com", icon: Mail },
 ];

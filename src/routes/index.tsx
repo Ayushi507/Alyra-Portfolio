@@ -65,7 +65,7 @@ export const Route = createFileRoute("/")({
           knowsAbout: [
             "Full-Stack Development",
             "AI Systems",
-            "Prompt Engineering",
+            "Prompt Architecture & LLMs",
             "Python",
             "FastAPI",
             "React",
@@ -75,7 +75,7 @@ export const Route = createFileRoute("/")({
             "Zero-Knowledge Architecture",
           ],
           sameAs: [
-            "https://github.com/Silenttears-cloud",
+            "https://github.com/Ayushi507",
             "https://www.linkedin.com/in/ayushi-raj-299a99388/",
             "https://www.instagram.com/Silenttears_82",
           ],
