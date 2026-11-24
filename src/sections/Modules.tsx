@@ -22,15 +22,6 @@ const PROJECTS: Project[] = [
     code: "https://github.com/Ayushi507/Stride-Career-Engine",
   },
   {
-    name: "Astra Vision — Interactive Code Sandbox & AST Visualizer",
-    date: "Apr 2026",
-    blurb:
-      "Interactive browser-based code analysis studio pairing Monaco Editor with live AST inspection and ChromaDB semantic code search. Co-Architects: Roushan Kumar & Ayushi Raj.",
-    tags: ["React", "Monaco Editor", "FastAPI", "ChromaDB", "Tree-Sitter", "Python"],
-    live: "https://astra-vision-chi.vercel.app/",
-    code: "https://github.com/Ayushi507/Astra_vision",
-  },
-  {
     name: "Alyra Lock — Client-Side Zero-Knowledge Password Vault",
     date: "Feb 2026",
     blurb:

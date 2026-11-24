@@ -13,13 +13,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Ayushi Raj — AI & Full-Stack Developer building zero-knowledge tools, orchestration platforms, and computer-vision systems with Python, FastAPI, React, and Gemini.",
+          "Portfolio of Ayushi Raj — AI & Full-Stack Developer building autonomous career operating systems, browser extensions, and zero-knowledge tools with React, Next.js, TypeScript, and Python.",
       },
       { property: "og:title", content: "Ayushi Raj — AI & Full-Stack Developer" },
       {
         property: "og:description",
         content:
-          "Zero-knowledge crypto vaults, low-latency orchestration gateways, and AI-native full-stack products.",
+          "Autonomous career operating systems, zero-knowledge crypto vaults, and AI-native full-stack applications.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
       {
         name: "twitter:description",
         content:
-          "Portfolio: zero-knowledge crypto vaults, orchestration gateways, AI computer vision.",
+          "Portfolio: autonomous AI career operating systems, zero-knowledge crypto vaults, and browser extensions.",
       },
     ],
     links: [

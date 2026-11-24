@@ -95,7 +95,7 @@ export function Identity() {
             transition={{ delay: 1, duration: 0.9 }}
             className="mt-10 grid max-w-lg grid-cols-3 gap-6 border-t border-border pt-5"
           >
-            <Stat n="3" label="Featured Projects" />
+            <Stat n="2" label="Featured Projects" />
             <Stat n="3" label="Job Simulations" />
             <Stat n="1" label="Gemini Certified" />
           </motion.div>
