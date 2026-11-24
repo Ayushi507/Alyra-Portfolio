@@ -13,40 +13,31 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-    name: "Stride — AI Career Platform & StridePilot",
+    name: "Stride — AI Career Platform & StridePilot Extension",
     date: "May 2026",
     blurb:
       "AI career suite featuring sub-second ATS scoring, Chrome MV3 Shadow-DOM autofill HUD, and a 21-platform ingestion pipeline (13 active platforms on 3h cron). Backed by 64 test files / 592 tests (100% passing Vitest).",
     tags: ["Next.js 16", "React 19", "Chrome MV3", "Gemini API", "Vitest (592 Tests)", "Zustand"],
-    live: "https://stride-career.vercel.app/",
-    code: "https://github.com/Hey-Astreon/Career_Engine",
+    live: "https://astrework.app/",
+    code: "https://github.com/Ayushi507/Stride-Career-Engine",
   },
   {
-    name: "Astra Vision — Code Sandbox & AST Studio",
+    name: "Astra Vision — Interactive Code Sandbox & AST Visualizer",
     date: "Apr 2026",
     blurb:
       "Interactive browser-based code analysis studio pairing Monaco Editor with live AST inspection and ChromaDB semantic code search. Co-Architects: Roushan Kumar & Ayushi Raj.",
     tags: ["React", "Monaco Editor", "FastAPI", "ChromaDB", "Tree-Sitter", "Python"],
-    live: "https://astra-vision.vercel.app/",
-    code: "https://github.com/Hey-Astreon/Astra-Vision",
+    live: "https://astra-vision-chi.vercel.app/",
+    code: "https://github.com/Ayushi507/Astra_vision",
   },
   {
-    name: "Alyra Lock — Zero-Knowledge Vault",
+    name: "Alyra Lock — Client-Side Zero-Knowledge Password Vault",
     date: "Feb 2026",
     blurb:
       "Client-side encrypted vault deriving keys strictly in browser memory via Web Crypto API (AES-GCM 256-bit, 600,000 PBKDF2 iterations) with JWT-authenticated Express sync. Zero plaintext leaves device.",
     tags: ["React", "TypeScript", "Web Crypto API", "AES-GCM", "PBKDF2 (600k)", "Express"],
     live: "https://alyra-lock.vercel.app/",
-    code: "https://github.com/Hey-Astreon/Zero-Knowledge-Password-Manager",
-  },
-  {
-    name: "AXIOM Orchestration Gateway",
-    date: "Mar 2026",
-    blurb:
-      "High-performance systems orchestration control plane with low-latency routing and live service telemetry over WebSockets.",
-    tags: ["Python", "FastAPI", "React", "Redis", "WebSockets"],
-    live: "https://axiom-orchestration-gateway.onrender.com/dashboard",
-    code: "https://github.com/Ayushi507/AXIOM-Orchestration-Gateway",
+    code: "https://github.com/Ayushi507/Zero-knowledge-password-manager-",
   },
 ];
 
